@@ -2687,8 +2687,8 @@ body {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("../Coral_files/DSC_0198.jpeg");
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../Coral_files/DSC_0198.jpeg");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("../Coral_files/newBG.jpeg");
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../Coral_files/newBG.jpeg");
   background-position: 0px 0px, 50% 50%;
   background-size: auto, cover;
 }
@@ -6459,7 +6459,7 @@ body {
 @media screen and (max-width: 479px) {
   .logo {
     position: static;
-    width: 90%;
+    width: 100%;
     max-width: none;
     margin-left: -4px;
     padding-left: 0px;
@@ -6522,7 +6522,7 @@ body {
   }
 
   .section.image-bg {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url("../Coral_files/test_marina.jpeg");
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url("../Coral_files/newBG.jpeg");
     background-position: 0px 0px, 50% 50%;
   }
 
@@ -6867,7 +6867,10 @@ body {
   }
 
   .imgproduct.tablet {
-    min-height: 220px;
+    min-height: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .imghalf {
